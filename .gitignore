@@ -1,0 +1,11 @@
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets/
+node_modules/
+dist/
+build/
+.DS_Store

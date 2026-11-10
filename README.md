@@ -34,6 +34,7 @@ The Owner decides. The Architect Agent specs and checks. The Implementer Agent b
 - `docs/PR-WORKFLOW.md`: branches, pull requests, CI, and the comment channel between agents.
 - `docs/ASYNC-LOOP.md`: how agents keep working while the Owner is away, with check-ins, nudges, and escalation.
 - `docs/ONE-AGENT-MODE.md`: how to run the same loop with one agent, wearing the Architect and Implementer hats one at a time. Start here if you are building solo.
+- `docs/MODEL-TIERS.md`: one agent, different models for different jobs. Fast tier live, capable tier after the fact, transcription by a speech service.
 - `docs/STAGING-PROD-SEPARATION.md`: staging and production kept apart, with a migration log.
 - `docs/BUG-LOG.md`: append-only bug log, blank and ready to use.
 - `docs/DECISIONS.md`: locked decisions, blank and ready to use.

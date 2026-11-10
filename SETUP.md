@@ -2,6 +2,14 @@
 
 Do these steps in order, before the first build. Most of them only need doing once per project.
 
+## You do not have to do these steps by hand
+
+You can instruct your Architect Agent to complete the setup steps for you. Paste this file to your Architect Agent and say: "Complete the setup steps for me. Ask me only for decisions and secrets, and show me what you changed before you finish."
+
+The Architect Agent can do most of the work: create the branches, set up the files, check the .gitignore, split staging and production settings, and run the scrub checklist and report what it found.
+
+The Owner still has to do a few things yourself, because only you can do them: create the accounts, choose Public or Private, approve the repo, enter secrets and passwords yourself, and give the go for anything that touches production or money. The Architect Agent will name those items clearly and wait for you, instead of guessing.
+
 ## Step 1. Create the repo
 
 1. On GitHub, create a new repository from this template. Use the "Use this template" button so the new repo starts clean, with no history from the template repo.
